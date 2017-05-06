@@ -2,7 +2,7 @@
 
 from random import randint	
 import os 
-for i in range(5):
-     j = randint(0,100)
+for i in range(2):
+     j = randint(0,10)
      os.system("touch %s-%s.txt" % (i,j))	 
 
